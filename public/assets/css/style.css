@@ -1729,3 +1729,28 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
+.mid_cont_wrapper_text span {
+  max-width: 920px;
+  float: left;
+  font-size: 40px;
+  line-height: 1.2em;
+}
+
+.menu_one{
+  line-height: 1.0em;
+  font-size: 40px;
+}
+
+.left-side-heading {
+  width: 20%;
+  float: left;
+  font-size: 35px;
+  color: #000;
+}
+
+.blue_wrap{
+    color: #977adb;
+    margin-bottom: 70px;
+}

@@ -177,7 +177,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2021 (upcoming) Observatoire Photographique du
+                                <label className='font-weight-bold'>2021 </label> (upcoming) Observatoire Photographique du
                                 Grand-Est, GroupExhibition, Stadtgalerie
                                 Saarbrücken (DE)
                               </h4>
@@ -215,7 +215,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2021 EMOP - European Month of Photography,
+                                <label className='font-weight-bold'>2021 </label> EMOP - European Month of Photography,
                                 Repenser le Paysage, Group exhibition, Abbey de
                                 Neumünster, Luxembourg (LUX)
                               </h4>
@@ -253,7 +253,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2020 Premio Combat Prize, GroupExhibition, Museo
+                                <label className='font-weight-bold'>2020 </label> Premio Combat Prize, GroupExhibition, Museo
                                 Civico Giovanni Fattori, Livorno (IT)
                               </h4>
                             </div>
@@ -290,7 +290,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2021 (upcoming) Observatoire Photographique du
+                                <label className='font-weight-bold'>2021 </label> (upcoming) Observatoire Photographique du
                                 Grand-Est, Group-Exhibition, CCAM Scène
                                 Nationale Vandoeuvrelès-Nancy (FR)
                               </h4>
@@ -328,7 +328,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2020 Portals, Solo-Exhibition, Treehouse NDSM,
+                                <label className='font-weight-bold'>2020 </label> Portals, Solo-Exhibition, Treehouse NDSM,
                                 Amsterdam (NL)
                               </h4>
                             </div>
@@ -365,7 +365,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2019 Regards Sans Limites, Trio-Exhibition, CCAM
+                                <label className='font-weight-bold'>2019 </label> Regards Sans Limites, Trio-Exhibition, CCAM
                                 Scène Nationale Vandoeuvre-lès-Nancy (FR)
                               </h4>
                             </div>
@@ -402,7 +402,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2019 Regards Sans Limites, Trio-Exhibition,
+                                <label className='font-weight-bold'>2019 </label> Regards Sans Limites, Trio-Exhibition,
                                 Saarländisches Künstlerhaus, Saarbrücken (GER)
                               </h4>
                             </div>
@@ -439,7 +439,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2019 EMOP - European Month of Photography, group
+                                <label className='font-weight-bold'>2019 </label> EMOP - European Month of Photography, group
                                 exhibition, Abbey de Neumünster, Luxembourg
                                 (LUX)
                               </h4>
@@ -477,7 +477,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2018 Tender Kissing Leads To Some Rough
+                                <label className='font-weight-bold'>2018 </label> Tender Kissing Leads To Some Rough
                                 Assfucking Stuff, Trio-exhibition, Stadtgallerie
                                 Saarbrücken (GER)
                               </h4>
@@ -515,7 +515,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2018 Exosphäre, Solo-Exhibition, Raketenstation
+                                <label className='font-weight-bold'>2018 </label> Exosphäre, Solo-Exhibition, Raketenstation
                                 Hombroich, Feldinstitut, Neuss (GER)
                               </h4>
                             </div>
@@ -552,7 +552,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2018 Atelier 111, group exhibition, Atelier 111,
+                                <label className='font-weight-bold'>2018 </label> Atelier 111, group exhibition, Atelier 111,
                                 Saarbrücken (GER)
                               </h4>
                             </div>
@@ -589,7 +589,7 @@ export default function App () {
                                   fontWeight: '700'
                                 }}
                               >
-                                2018 Prix d‘Art Robert-Schuman, Arsenal, Metz,
+                                <label className='font-weight-bold'>2018 </label> Prix d‘Art Robert-Schuman, Arsenal, Metz,
                                 (FR)
                               </h4>
                             </div>
@@ -1009,10 +1009,8 @@ export default function App () {
                           }}
                         >
                           <p>
-                             
-                            2020 Winner of the Premio Combat Prize in
+                            <label className='font-weight-bold'>2020 </label> Winner of the Premio Combat Prize in
                             Photography, Livorno (IT)
-                             
                           </p>
                         </div>
                       </div>
@@ -1031,10 +1029,8 @@ export default function App () {
                           }}
                         >
                           <p>
-                             
-                            2019 Scholarship for young photographers, Surface
+                            <label className='font-weight-bold'>2019 </label> Scholarship for young photographers, Surface
                             Sensible (GER/FR/LUX)
-                             
                           </p>
                         </div>
                       </div>
@@ -1053,11 +1049,9 @@ export default function App () {
                           }}
                         >
                           <p>
-                             
-                            2018 Winner of the Prix d‘art Robert Schumann -
+                            <label className='font-weight-bold'>2018 </label> Winner of the Prix d‘art Robert Schumann -
                             Quattropole Luxembourg, Metz, Saarbrücken, Trier
                             (GER/FR/LUX))
-                             
                           </p>
                         </div>
                       </div>
@@ -1076,11 +1070,9 @@ export default function App () {
                           }}
                         >
                           <p>
-                             
-                            2018 & 16 Artist in residence Raketenstation
+                            <label className='font-weight-bold'>2018 </label> & 16 Artist in residence Raketenstation
                             Hombroich, Fieldinstitut - Raketenstation Hombroich,
                             Foundation Insel Hombroich, Neuss (GER)
-                             
                           </p>
                         </div>
                       </div>
@@ -1099,10 +1091,8 @@ export default function App () {
                           }}
                         >
                           <p>
-                             
                             2017 Stipend for the artists group TJURIP -
                             Municipal Cultural Office Of Saarbrücken (GER)
-                             
                           </p>
                         </div>
                       </div>
@@ -1121,11 +1111,9 @@ export default function App () {
                           }}
                         >
                           <p>
-                             
                             2016 Diploma Promotion, Allianz Arts Council, Berlin
                             / The Ministry Of Education And Culture, Saarland
                             (GER)
-                             
                           </p>
                         </div>
                       </div>
@@ -1144,11 +1132,9 @@ export default function App () {
                           }}
                         >
                           <p>
-                             
                             2016 Scholarship for remarkable final years projects
                             - Hochschule Der Bildenden Künste Saar / Bank1saar (
                             GER)
-                             
                           </p>
                         </div>
                       </div>
@@ -1166,11 +1152,7 @@ export default function App () {
                             paddingRight: '50px'
                           }}
                         >
-                          <p>
-                             
-                            2015 Commendation in photography – Opus Magazin
-                             
-                          </p>
+                          <p>2015 Commendation in photography – Opus Magazin</p>
                         </div>
                       </div>
                     </div>
@@ -1188,11 +1170,9 @@ export default function App () {
                           }}
                         >
                           <p>
-                             
                             2015 Promotion of the project SWAP YOUR SHOE at the
                             United Nations - Foundation Apfelbaum,
                             North-rhinewestphalia / Ministry
-                             
                           </p>
                         </div>
                       </div>
@@ -1211,12 +1191,10 @@ export default function App () {
                           }}
                         >
                           <p>
-                             
                             2015 Promotion of the project SWAP YOUR SHOE at the
                             United Nations - Foundation Apfelbaum,
                             North-rhinewestphalia / Ministry Of Education And
                             Culture, Saar (GER)
-                             
                           </p>
                         </div>
                       </div>
@@ -1235,10 +1213,8 @@ export default function App () {
                           }}
                         >
                           <p>
-                             
                             2015 Scholarship for emerging artists - City Of
                             Saarbrücken (GER)
-                             
                           </p>
                         </div>
                       </div>
@@ -1257,10 +1233,8 @@ export default function App () {
                           }}
                         >
                           <p>
-                             
                             2012 Study sholarship of the Academic Foundation
                             Saar - Studienstiftung Saar (GER)
-                             
                           </p>
                         </div>
                       </div>
@@ -1394,11 +1368,11 @@ export default function App () {
                           style={{
                             height: '300px',
                             paddingLeft: '100px',
-                            paddingRight: '50px',
+                            paddingRight: '50px'
                           }}
                         >
-                          <p style={{fontSize:'22px' , textAlign:'left' }}>
-                            2019 Emoplux <br />
+                          <p style={{ fontSize: '22px', textAlign: 'left' }}>
+                            <label className='font-weight-bold'>2019 </label> Emoplux <br />
                             European Month of Photography 2019
                             <br />
                             Publisher: Café-Crème asbl / Paul di Felice / Pierre
@@ -1410,7 +1384,6 @@ export default function App () {
                             Texts: Paul di Felice; Pierre Stiwer
                             <br />
                             ISBN 978-99959-674-6-8
-                             
                           </p>
                         </div>
                       </div>
@@ -1428,9 +1401,8 @@ export default function App () {
                             paddingRight: '50px'
                           }}
                         >
-                          <p style={{fontSize:'22px' , textAlign:'left'}}>
-                             
-                            2019 Regards sans limites <br />
+                          <p style={{ fontSize: '22px', textAlign: 'left' }}>
+                            <label className='font-weight-bold'>2019 </label> Regards sans limites <br />
                             Stipendium zur Förderung junger Fotografie 4.
                             Auflage
                             <br />
@@ -1448,7 +1420,6 @@ export default function App () {
                             Vandoeuvre, Nancy (FR)
                             <br />
                             ISBN: 978-3-945126-66-0
-                             
                           </p>
                         </div>
                       </div>
@@ -1466,15 +1437,13 @@ export default function App () {
                             paddingRight: '50px'
                           }}
                         >
-                          <p style={{fontSize:'22px' , textAlign:'left'}}>
-                             
-                            2018 Prix d‘Art Robert Schumann <br />
+                          <p style={{ fontSize: '22px', textAlign: 'left' }}>
+                            <label className='font-weight-bold'>2018 </label> Prix d‘Art Robert Schumann <br />
                             Publisher:QuattroPole
                             <br />
                             Exhibition: 19.01-04.03.2018, Arsenal, Metz (FR)
                             <br />
                             Texts: Andrea Jahn; Kamila Kolesniczenko
-                             
                           </p>
                         </div>
                       </div>
@@ -1492,8 +1461,7 @@ export default function App () {
                             paddingRight: '50px'
                           }}
                         >
-                          <p style={{fontSize:'22px' , textAlign:'left'}}>
-                             
+                          <p style={{ fontSize: '22px', textAlign: 'left' }}>
                             2017 Saarart 11 <br />
                             11. Landeskunstausstellung
                             <br />
@@ -1506,7 +1474,6 @@ export default function App () {
                             Texts: i.a. Cornelieke Lagerwaard; Friederike Steitz
                             <br />
                             ISBN: 978-3-943924-12-1
-                             
                           </p>
                         </div>
                       </div>
@@ -1524,8 +1491,7 @@ export default function App () {
                             paddingRight: '50px'
                           }}
                         >
-                          <p style={{fontSize:'22px' , textAlign:'left'}}>
-                             
+                          <p style={{ fontSize: '22px', textAlign: 'left' }}>
                             2016 Tjurip
                             <br />
                             AbsolventInnenausstellung
@@ -1537,7 +1503,6 @@ export default function App () {
                             <br />
                             Texts: Markus Hammerschmitt; Katharina Ritter; Prof.
                             Dr. Hartmut Wagner
-                             
                           </p>
                         </div>
                       </div>
@@ -1555,8 +1520,7 @@ export default function App () {
                             paddingRight: '50px'
                           }}
                         >
-                          <p style={{fontSize:'22px' , textAlign:'left'}}>
-                             
+                          <p style={{ fontSize: '22px', textAlign: 'left' }}>
                             2015 Early Birds
                             <br />
                             Publisher: Enovos Deutschland SE
@@ -1564,7 +1528,6 @@ export default function App () {
                             Exhibition: 28.01-31.05.2015
                             <br />
                             Texts: Anna-Gabriela Henné
-                             
                           </p>
                         </div>
                       </div>
@@ -1582,8 +1545,7 @@ export default function App () {
                             paddingRight: '50px'
                           }}
                         >
-                          <p style={{fontSize:'22px' , textAlign:'left'}}>
-                             
+                          <p style={{ fontSize: '22px', textAlign: 'left' }}>
                             2015 Opus Kulturmagazin
                             <br />
                             Fotopreis 2015
@@ -1597,7 +1559,6 @@ export default function App () {
                             Prof. Dr. Rolf Sachsse
                             <br />
                             ISBN: 978-3-9815946-3-8
-                             
                           </p>
                         </div>
                       </div>
@@ -1615,8 +1576,7 @@ export default function App () {
                             paddingRight: '50px'
                           }}
                         >
-                          <p style={{fontSize:'22px' , textAlign:'left'}}>
-                             
+                          <p style={{ fontSize: '22px', textAlign: 'left' }}>
                             2015 Swap Your Shoe
                             <br />
                             Social transformation as a step towards
@@ -1632,7 +1592,6 @@ export default function App () {
                             <br />
                             Texts: Prof. Thalia Goldstein; Andrea Haring; Golda
                             El-Khoury; Shazia Sikander; Prof. Kendall Thomas;
-                             
                           </p>
                         </div>
                       </div>
@@ -1650,8 +1609,7 @@ export default function App () {
                             paddingRight: '50px'
                           }}
                         >
-                          <p style={{fontSize:'22px' , textAlign:'left'}}>
-                             
+                          <p style={{ fontSize: '22px', textAlign: 'left' }}>
                             2015 Vorhallen/Nachhallen
                             <br />
                             Publisher: Stiftung Saarländischer Kulturbesitz, Dr.
@@ -1668,7 +1626,6 @@ export default function App () {
                             Winzen
                             <br />
                             ISBN: 978-3-932036-78-1
-                             
                           </p>
                         </div>
                       </div>
@@ -1960,20 +1917,20 @@ export default function App () {
           </a> */}
         </div>
       </div>
-      <div className='mid_cont_wrapper2'>
+      <div className='mid_cont_wrapper_text'>
         <span className='black2'>
           Thilo Seidel is an Amsterdam based Visual Artist doing Video and
           Photography. In his work he does not capture immediate moments, but
           rather explores environments by questioning perceptions as well as
           representations of realities.
         </span>
-        <span className='pink_wrap'>
+        <span className='blue_wrap'>
           Recently Thilo got awarded with the Premio Combat Price in
           Photography, Livorno, Italy.
         </span>
       </div>
       <div className='about_wrap_file'>
-        <div className='contac_wrap_style'>
+        <div className='left-side-heading '>
           <span>Contact Info</span>
         </div>
         <div className='contac_wrap_style2 contac_wrap_style25'>
@@ -2001,7 +1958,7 @@ export default function App () {
         </div>
       </div>
       {/* <div className='about_wrap_file'>
-        <div className='contac_wrap_style'>
+        <div className='left-side-heading '>
           <span>some clients</span>
         </div>
         <div className='contac_wrap_style2 contac_wrap_style25'>
@@ -2013,7 +1970,7 @@ export default function App () {
       </div> */}
 
       <div className='about_wrap_file bor_none'>
-        <div className='contac_wrap_style'>
+        <div className='left-side-heading '>
           <span>Some Exhibition</span>
         </div>
         <div className='contac_wrap_style2 contac_wrap_style25 fety_set'>
@@ -2023,7 +1980,7 @@ export default function App () {
               setModalExhibition(true)
             }}
           >
-            2021 (upcoming) Observatoire Photographique du Grand-Est,
+            <label className='font-weight-bold'>2021 </label> (upcoming) Observatoire Photographique du Grand-Est,
             Group-Exhibition, CCAM Scène Nationale Vandoeuvrelès-Nancy (FR)
           </a>
           <a
@@ -2032,9 +1989,20 @@ export default function App () {
             }}
             className='menu_one'
           >
-            2021 (upcoming) Observatoire Photographique du Grand-Est,
+            <label className='font-weight-bold'>2021 </label> (upcoming) Observatoire Photographique du Grand-Est,
             Group-Exhibition, Stadtgalerie Saarbrücken (DE)
           </a>
+
+          <a
+            onClick={() => {
+              setModalExhibition(true)
+            }}
+            className='menu_one'
+          >
+            <label className='font-weight-bold'>2020 </label> Premio Combat Prize, GroupExhibition, Museo Civico Giovanni
+            Fattori, Livorno (IT)
+          </a>
+
           <a
             className='btn btn-light font-weight-bold'
             style={{ width: '100px' }}
@@ -2049,7 +2017,7 @@ export default function App () {
             target='_blank'
             className='menu_one'
           >
-            2021 EMOP - European Month of Photography, Bodyfiction(s), Group
+            <label className='font-weight-bold'>2021 </label> EMOP - European Month of Photography, Bodyfiction(s), Group
             exhibition, Abbey de Neumünster, Luxembourg (LUX)
           </a>
           <a
@@ -2057,7 +2025,7 @@ export default function App () {
             target='_blank'
             className='menu_one'
           >
-            2020 Premio Combat Prize, Group-Exhibition, Museo Civico Giovanni
+            <label className='font-weight-bold'>2020 </label> Premio Combat Prize, Group-Exhibition, Museo Civico Giovanni
             Fattori, Livorno (IT)
           </a>
           <a
@@ -2065,14 +2033,14 @@ export default function App () {
             target='_blank'
             className='menu_one'
           >
-            2020 Portals, Solo-Exhibition, Treehouse NDSM, Amsterdam (NL)
+            <label className='font-weight-bold'>2020 </label> Portals, Solo-Exhibition, Treehouse NDSM, Amsterdam (NL)
           </a>
           <a
             href='https://www.mache.digital/series/2018/8/6/illustrations-by-ana-duje'
             target='_blank'
             className='menu_one'
           >
-            2019 Regards Sans Limites, Trio-Exhibition, CCAM Scène Nationale
+            <label className='font-weight-bold'>2019 </label> Regards Sans Limites, Trio-Exhibition, CCAM Scène Nationale
             Vandoeuvre-lès-Nancy (FR)
           </a>
           <a
@@ -2080,7 +2048,7 @@ export default function App () {
             target='_blank'
             className='menu_one'
           >
-            2019 Regards Sans Limites, Trio-Exhibition, Saarländisches
+            <label className='font-weight-bold'>2019 </label> Regards Sans Limites, Trio-Exhibition, Saarländisches
             Künstlerhaus, Saarbrücken (GER)
           </a>
           <a
@@ -2088,7 +2056,7 @@ export default function App () {
             target='_blank'
             className='menu_one'
           >
-            2019 EMOP - European Month of Photography, group exhibition, Abbey
+            <label className='font-weight-bold'>2019 </label> EMOP - European Month of Photography, group exhibition, Abbey
             de Neumünster, Luxembourg (LUX)
           </a>
           <a
@@ -2096,7 +2064,7 @@ export default function App () {
             target='_blank'
             className='menu_one'
           >
-            2018 Tender Kissing Leads To Some Rough Assfucking Stuff,
+            <label className='font-weight-bold'>2018 </label> Tender Kissing Leads To Some Rough Assfucking Stuff,
             Trio-exhibition, Stadtgallerie Saarbrücken (GER)
           </a>
           <a
@@ -2104,7 +2072,7 @@ export default function App () {
             target='_blank'
             className='menu_one'
           >
-            2018 Exosphäre, Solo-Exhibition, Raketenstation Hombroich,
+            <label className='font-weight-bold'>2018 </label> Exosphäre, Solo-Exhibition, Raketenstation Hombroich,
             Feldinstitut, Neuss (GER)
           </a>
           <a
@@ -2112,7 +2080,7 @@ export default function App () {
             target='_blank'
             className='menu_one'
           >
-            2018 Atelier 111, group exhibition, Atelier 111, Saarbrücken (GER)
+            <label className='font-weight-bold'>2018 </label> Atelier 111, group exhibition, Atelier 111, Saarbrücken (GER)
           </a>
 
           <a
@@ -2120,7 +2088,7 @@ export default function App () {
             target='_blank'
             className='menu_one'
           >
-            2018 Prix d‘Art Robert-Schuman, Arsenal, Metz, (FR)
+            <label className='font-weight-bold'>2018 </label> Prix d‘Art Robert-Schuman, Arsenal, Metz, (FR)
           </a>
           <a
             href='https://www.machodominante.es/color-y-forma-con-el-estilo-peculiar-de-ana-duje/'
@@ -2181,7 +2149,7 @@ export default function App () {
       </div>
 
       <div className='about_wrap_file bor_none'>
-        <div className='contac_wrap_style'>
+        <div className='left-side-heading '>
           <span>Award</span>
         </div>
         <div className='contac_wrap_style2 contac_wrap_style25 fety_set'>
@@ -2191,7 +2159,7 @@ export default function App () {
             }}
             className='menu_one'
           >
-            2020 Winner of the Premio Combat Prize in Photography, Livorno (IT)
+            <label className='font-weight-bold'>2020 </label> Winner of the Premio Combat Prize in Photography, Livorno (IT)
           </a>
           <a
             onClick={() => {
@@ -2199,9 +2167,20 @@ export default function App () {
             }}
             className='menu_one'
           >
-            2019 Scholarship for young photographers, Surface Sensible
+            <label className='font-weight-bold'>2019 </label> Scholarship for young photographers, Surface Sensible
             (GER/FR/LUX)
           </a>
+
+          <a
+            onClick={() => {
+              setModalAward(true)
+            }}
+            className='menu_one'
+          >
+            <label className='font-weight-bold'>2018 </label> Winner of the Prix d‘art Robert Schumann - Quattropole
+            Luxembourg, Metz, Saarbrücken, Trier (GER/FR/LUX))
+          </a>
+
           <a
             className='btn btn-light font-weight-bold'
             style={{ width: '100px' }}
@@ -2216,7 +2195,7 @@ export default function App () {
             target='_blank'
             className='menu_one'
           >
-            2018 Winner of the Prix d‘art Robert Schumann - Quattropole
+            <label className='font-weight-bold'>2018 </label> Winner of the Prix d‘art Robert Schumann - Quattropole
             Luxembourg,Metz,Saarbrücken,Trier (GER/FR/LUX))
           </a>
           <a
@@ -2224,7 +2203,7 @@ export default function App () {
             target='_blank'
             className='menu_one'
           >
-            2018 & 16 Artist in residence Raketenstation Hombroich,
+            <label className='font-weight-bold'>2018 </label> & 16 Artist in residence Raketenstation Hombroich,
             Fieldinstitut - Raketenstation Hombroich, Foundation Insel
             Hombroich, Neuss (GER)
           </a>
@@ -2287,7 +2266,7 @@ export default function App () {
       </div>
 
       <div className='about_wrap_file bor_none'>
-        <div className='contac_wrap_style'>
+        <div className='left-side-heading '>
           <span>Publications</span>
         </div>
         <div className='contac_wrap_style2 contac_wrap_style25 fety_set'>
@@ -2297,7 +2276,7 @@ export default function App () {
             }}
             className='menu_one'
           >
-            2019 Emoplux <br />
+            <label className='font-weight-bold'>2019 </label> Emoplux <br />
             European Month of Photography 2019
           </a>
           <a
@@ -2306,9 +2285,20 @@ export default function App () {
             }}
             className='menu_one'
           >
-            2019 Regards sans limites <br />
+            <label className='font-weight-bold'>2019 </label> Regards sans limites <br />
             Stipendium zur Förderung junger Fotografie 4. Auflage
           </a>
+
+          <a
+            onClick={() => {
+              setModalPublications(true)
+            }}
+            className='menu_one'
+          >
+            <label className='font-weight-bold'>2018 </label> Prix d‘Art Robert Schumann <br />
+            Publisher:QuattroPole
+          </a>
+
           <a
             className='btn btn-light font-weight-bold'
             style={{ width: '100px' }}
