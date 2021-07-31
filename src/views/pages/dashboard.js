@@ -79,7 +79,7 @@ class ProductsList extends Component {
                           ? 'nav-link scrollto  active'
                           : 'nav-link scrollto '
                       }
-                      href='#menu'
+                      href='#why-us'
                     >
                       Shop
                     </a>
@@ -196,9 +196,10 @@ class ProductsList extends Component {
                     <div className='row event-item'>
                       <div className='col-lg-6'>
                         <img
-                          src='assets/img/event-birthday.jpg'
+                          src='assets/img/Thilo Seidel_2.jpg'
                           className='img-fluid'
                           alt=''
+                          style={{ width: '100%', height: '500px' }}
                         />
                       </div>
                       <div className='col-lg-6 pt-4 pt-lg-0 content'>
@@ -208,7 +209,7 @@ class ProductsList extends Component {
                             <span>$189</span>
                           </p> */}
                         </div>
-                        <p className='fst-italic'>
+                        <p className='fst-italic' style={{ fontSize: '25px' }}>
                           Thilo Seidel is an Amsterdam based Visual Artist doing
                           Video and Photography. In his work he does not capture
                           immediate moments, but rather explores environments by
@@ -223,15 +224,16 @@ class ProductsList extends Component {
                     <div className='row event-item'>
                       <div className='col-lg-6'>
                         <img
-                          src='assets/img/event-private.jpg'
+                          src='assets/img/ThiloSeidel_8.jpg'
                           className='img-fluid'
                           alt=''
+                          style={{ width: '100%', height: '500px' }}
                         />
                       </div>
                       <div className='col-lg-6 pt-4 pt-lg-0 content'>
                         <h3>About</h3>
                         <div className='price'></div>
-                        <p className='fst-italic'>
+                        <p className='fst-italic' style={{ fontSize: '25px' }}>
                           Thilo Seidel is an Amsterdam based Visual Artist doing
                           Video and Photography. In his work he does not capture
                           immediate moments, but rather explores environments by
@@ -246,15 +248,16 @@ class ProductsList extends Component {
                     <div className='row event-item'>
                       <div className='col-lg-6'>
                         <img
-                          src='assets/img/event-custom.jpg'
+                          src='assets/img/ThiloSeidel_1.jpg'
                           className='img-fluid'
                           alt=''
+                          style={{ width: '100%', height: '500px' }}
                         />
                       </div>
                       <div className='col-lg-6 pt-4 pt-lg-0 content'>
                         <h3>About</h3>
                         <div className='price'></div>
-                        <p className='fst-italic'>
+                        <p className='fst-italic' style={{ fontSize: '25px' }}>
                           Thilo Seidel is an Amsterdam based Visual Artist doing
                           Video and Photography. In his work he does not capture
                           immediate moments, but rather explores environments by
@@ -294,7 +297,11 @@ class ProductsList extends Component {
             </section>
             {/* End Events Section */}
             {/* ======= Why Us Section ======= */}
-            <section id='why-us' className='why-us'   style={{ background: '#1a1814' }}>
+            <section
+              id='why-us'
+              className='why-us'
+              style={{ background: '#1a1814' }}
+            >
               <div className='container aos-init' data-aos='fade-up'>
                 <div className='section-title'>
                   <h2>Exhibitions</h2>
@@ -385,52 +392,50 @@ class ProductsList extends Component {
                           data-bs-slide-to='11'
                           aria-label='Slide 12'
                         ></button>
-                         <button
+                        <button
                           type='button'
                           data-bs-target='#carouselExampleIndicators3'
                           data-bs-slide-to='12'
                           aria-label='Slide 13'
                         ></button>
-                         <button
+                        <button
                           type='button'
                           data-bs-target='#carouselExampleIndicators3'
                           data-bs-slide-to='13'
                           aria-label='Slide 14'
                         ></button>
-                         <button
+                        <button
                           type='button'
                           data-bs-target='#carouselExampleIndicators3'
                           data-bs-slide-to='14'
                           aria-label='Slide 15'
                         ></button>
-                         <button
+                        <button
                           type='button'
                           data-bs-target='#carouselExampleIndicators3'
                           data-bs-slide-to='15'
                           aria-label='Slide 16'
                         ></button>
-                         <button
+                        <button
                           type='button'
                           data-bs-target='#carouselExampleIndicators3'
                           data-bs-slide-to='16'
                           aria-label='Slide 17'
                         ></button>
-                         <button
+                        <button
                           type='button'
                           data-bs-target='#carouselExampleIndicators3'
                           data-bs-slide-to='17'
                           aria-label='Slide 18'
                         ></button>
-                         <button
+                        <button
                           type='button'
                           data-bs-target='#carouselExampleIndicators3'
                           data-bs-slide-to='18'
                           aria-label='Slide 19'
                         ></button>
-                       
-                        
                       </div>
-               
+
                       <div class='carousel-inner'>
                         <div class='carousel-item active'>
                           <div className='row event-item'>
@@ -441,7 +446,8 @@ class ProductsList extends Component {
                               aria-label='7 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -473,7 +479,8 @@ class ProductsList extends Component {
                               aria-label='8 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -505,7 +512,8 @@ class ProductsList extends Component {
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -529,14 +537,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -550,8 +559,9 @@ class ProductsList extends Component {
                                 >
                                   <span>04</span>
                                   <h4>
-                                  2021 (upcoming) Observatoire Photographique du Grand-Est, Group-Exhibition, CCAM Scène Nationale Vandoeuvrelès-Nancy (FR)
-
+                                    2021 (upcoming) Observatoire Photographique
+                                    du Grand-Est, Group-Exhibition, CCAM Scène
+                                    Nationale Vandoeuvrelès-Nancy (FR)
                                   </h4>
                                 </div>
                               </a>
@@ -560,14 +570,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -581,8 +592,8 @@ class ProductsList extends Component {
                                 >
                                   <span>05</span>
                                   <h4>
-                                  2020 Portals, Solo-Exhibition, Treehouse NDSM, Amsterdam (NL)
-
+                                    2020 Portals, Solo-Exhibition, Treehouse
+                                    NDSM, Amsterdam (NL)
                                   </h4>
                                 </div>
                               </a>
@@ -591,14 +602,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -612,8 +624,9 @@ class ProductsList extends Component {
                                 >
                                   <span>06</span>
                                   <h4>
-                                  2019 Regards Sans Limites, Trio-Exhibition, CCAM Scène Nationale Vandoeuvre-lès-Nancy (FR)
-
+                                    2019 Regards Sans Limites, Trio-Exhibition,
+                                    CCAM Scène Nationale Vandoeuvre-lès-Nancy
+                                    (FR)
                                   </h4>
                                 </div>
                               </a>
@@ -622,14 +635,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -643,8 +657,9 @@ class ProductsList extends Component {
                                 >
                                   <span>07</span>
                                   <h4>
-                                  2019 Regards Sans Limites, Trio-Exhibition, Saarländisches Künstlerhaus, Saarbrücken (GER)
-
+                                    2019 Regards Sans Limites, Trio-Exhibition,
+                                    Saarländisches Künstlerhaus, Saarbrücken
+                                    (GER)
                                   </h4>
                                 </div>
                               </a>
@@ -653,14 +668,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -674,8 +690,9 @@ class ProductsList extends Component {
                                 >
                                   <span>08</span>
                                   <h4>
-                                  2019 EMOP - European Month of Photography, group exhibition, Abbey de Neumünster, Luxembourg (LUX)
-
+                                    2019 EMOP - European Month of Photography,
+                                    group exhibition, Abbey de Neumünster,
+                                    Luxembourg (LUX)
                                   </h4>
                                 </div>
                               </a>
@@ -684,14 +701,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -705,8 +723,9 @@ class ProductsList extends Component {
                                 >
                                   <span>09</span>
                                   <h4>
-                                  2018 Tender Kissing Leads To Some Rough Assfucking Stuff, Trio-exhibition, Stadtgallerie Saarbrücken (GER)
-
+                                    2018 Tender Kissing Leads To Some Rough
+                                    Assfucking Stuff, Trio-exhibition,
+                                    Stadtgallerie Saarbrücken (GER)
                                   </h4>
                                 </div>
                               </a>
@@ -715,14 +734,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -736,8 +756,9 @@ class ProductsList extends Component {
                                 >
                                   <span>10</span>
                                   <h4>
-                                  2018 Exosphäre, Solo-Exhibition, Raketenstation Hombroich, Feldinstitut, Neuss (GER)
-
+                                    2018 Exosphäre, Solo-Exhibition,
+                                    Raketenstation Hombroich, Feldinstitut,
+                                    Neuss (GER)
                                   </h4>
                                 </div>
                               </a>
@@ -746,14 +767,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -767,8 +789,8 @@ class ProductsList extends Component {
                                 >
                                   <span>11</span>
                                   <h4>
-                                  2018 Atelier 111, group exhibition, Atelier 111, Saarbrücken (GER)
-
+                                    2018 Atelier 111, group exhibition, Atelier
+                                    111, Saarbrücken (GER)
                                   </h4>
                                 </div>
                               </a>
@@ -777,14 +799,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -798,8 +821,8 @@ class ProductsList extends Component {
                                 >
                                   <span>12</span>
                                   <h4>
-                                  2018 Prix d‘Art Robert-Schuman, Arsenal, Metz, (FR)
-
+                                    2018 Prix d‘Art Robert-Schuman, Arsenal,
+                                    Metz, (FR)
                                   </h4>
                                 </div>
                               </a>
@@ -808,14 +831,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -829,8 +853,9 @@ class ProductsList extends Component {
                                 >
                                   <span>13</span>
                                   <h4>
-                                  2017 Landeskunstausstellung SaarART 11, National Exhibition of Saarland, group exhibition, Saarland (GER)
-
+                                    2017 Landeskunstausstellung SaarART 11,
+                                    National Exhibition of Saarland, group
+                                    exhibition, Saarland (GER)
                                   </h4>
                                 </div>
                               </a>
@@ -839,14 +864,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -860,7 +886,8 @@ class ProductsList extends Component {
                                 >
                                   <span>14</span>
                                   <h4>
-                                  2017 EarlyBirds, Galerie der HBKSaar, Saarbrücken (GER)
+                                    2017 EarlyBirds, Galerie der HBKSaar,
+                                    Saarbrücken (GER)
                                   </h4>
                                 </div>
                               </a>
@@ -869,14 +896,47 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
+                              }}
+                            >
+                              <a
+                                className='col-lg-4 mt-4 mt-lg-0'
+                                href='https://www.museofattori.livorno.it/mostre-ed-eventi/premio-combat-2020-dal-10-fino-al-31-ottobre-ai-granai-e-al-museo-g-fattori-di-vil-la-mimbelli-e-al-sac/'
+                              >
+                                <div
+                                  className='box aos-init'
+                                  data-aos='zoom-in'
+                                  data-aos-delay={300}
+                                >
+                                  <span>15</span>
+                                  <h4>
+                                    2016 Tjurip, graduate exhibition,
+                                    Fasanerieweg 17, Saarbrücken (GER)
+                                  </h4>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class='carousel-item'>
+                          <div className='row event-item'>
+                            <div
+                              className='swiper-slide swiper-slide-duplicate'
+                              data-swiper-slide-index={0}
+                              role='group'
+                              aria-label='9 / 11'
+                              style={{
+                                height: '300px',
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -890,7 +950,8 @@ class ProductsList extends Component {
                                 >
                                   <span>16</span>
                                   <h4>
-                                  2016 Tjurip, graduate exhibition, Fasanerieweg 17, Saarbrücken (GER)
+                                    2016 Opus Fotopreis, Wanderausstellung,
+                                    Theodor-Zink-Museum, Kaiserslautern (GER);
                                   </h4>
                                 </div>
                               </a>
@@ -899,14 +960,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -920,7 +982,8 @@ class ProductsList extends Component {
                                 >
                                   <span>17</span>
                                   <h4>
-                                  2016 Opus Fotopreis, Wanderausstellung, Theodor-Zink-Museum, Kaiserslautern (GER);
+                                    2016 Opus Fotopreis, Wanderausstellung,
+                                    Atelier Museum Haus Ludwig, Saarlouis (GER)
                                   </h4>
                                 </div>
                               </a>
@@ -929,14 +992,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -950,7 +1014,8 @@ class ProductsList extends Component {
                                 >
                                   <span>18</span>
                                   <h4>
-                                  2016 Opus Fotopreis, Wanderausstellung, Atelier Museum Haus Ludwig, Saarlouis (GER)
+                                    2016 Außer Haus, group exhibition, Alte
+                                    Druckerei, Saarbrücken (GER)
                                   </h4>
                                 </div>
                               </a>
@@ -959,14 +1024,15 @@ class ProductsList extends Component {
                         </div>
                         <div class='carousel-item'>
                           <div className='row event-item'>
-                          <div
+                            <div
                               className='swiper-slide swiper-slide-duplicate'
                               data-swiper-slide-index={0}
                               role='group'
                               aria-label='9 / 11'
                               style={{
                                 height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
+                                paddingLeft: '80px',
+                                paddingRight: '80px'
                               }}
                             >
                               <a
@@ -980,45 +1046,15 @@ class ProductsList extends Component {
                                 >
                                   <span>19</span>
                                   <h4>
-                                  2016 Außer Haus, group exhibition, Alte Druckerei, Saarbrücken (GER)
+                                    2016 Exposition photographique
+                                    transfrontalière, Wanderausstellung, Espace
+                                    d‘Art Adagio, Thionville (FR)
                                   </h4>
                                 </div>
                               </a>
                             </div>
                           </div>
                         </div>
-                        <div class='carousel-item'>
-                          <div className='row event-item'>
-                          <div
-                              className='swiper-slide swiper-slide-duplicate'
-                              data-swiper-slide-index={0}
-                              role='group'
-                              aria-label='9 / 11'
-                              style={{
-                                height: '300px',
-                                paddingLeft:'80px',paddingRight:'80px'
-                              }}
-                            >
-                              <a
-                                className='col-lg-4 mt-4 mt-lg-0'
-                                href='https://www.museofattori.livorno.it/mostre-ed-eventi/premio-combat-2020-dal-10-fino-al-31-ottobre-ai-granai-e-al-museo-g-fattori-di-vil-la-mimbelli-e-al-sac/'
-                              >
-                                <div
-                                  className='box aos-init'
-                                  data-aos='zoom-in'
-                                  data-aos-delay={300}
-                                >
-                                  <span>20</span>
-                                  <h4>
-                                  2016 Exposition photographique transfrontalière, Wanderausstellung, Espace d‘Art Adagio, Thionville (FR)
-                                  </h4>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-
-
                       </div>
                       <button
                         class='carousel-control-prev'
@@ -1649,12 +1685,16 @@ class ProductsList extends Component {
                   <div className='col-lg-3 col-md-4'>
                     <div className='gallery-item'>
                       <a
-                        href='assets/img/gallery/gallery-1.jpg'
+                        href='assets/img/Thilo Seidel_2.jpg'
                         className='gallery-lightbox'
                         data-gall='gallery-item'
                       >
                         <img
-                          src='assets/img/gallery/gallery-1.jpg'
+                          src='assets/img/Thilo Seidel_2.jpg'
+                          style={{
+                            width: '300px',
+                            height: '300px'
+                          }}
                           alt=''
                           className='img-fluid'
                         />
@@ -1664,13 +1704,55 @@ class ProductsList extends Component {
                   <div className='col-lg-3 col-md-4'>
                     <div className='gallery-item'>
                       <a
-                        href='assets/img/gallery/gallery-2.jpg'
+                        href='assets/img/ThiloSeidel_0.jpg'
                         className='gallery-lightbox'
                         data-gall='gallery-item'
                       >
                         <img
-                          src='assets/img/gallery/gallery-2.jpg'
+                          src='assets/img/ThiloSeidel_0.jpg'
                           alt=''
+                          className='img-fluid' 
+                          style={{
+                            width: '300px',
+                            height: '300px'
+                          }}
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className='col-lg-3 col-md-4'>
+                    <div className='gallery-item'>
+                      <a
+                        href='assets/img/ThiloSeidel_7.jpg'
+                        className='gallery-lightbox'
+                        data-gall='gallery-item'
+                      >
+                        <img
+                          src='assets/img/ThiloSeidel_7.jpg'
+                          alt=''
+                          className='img-fluid'
+                          style={{
+                            width: '300px',
+                            height: '300px'
+                          }}
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className='col-lg-3 col-md-4'>
+                    <div className='gallery-item'>
+                      <a
+                        href='assets/img/ThiloSeidel_1.jpg'
+                        className='gallery-lightbox'
+                        data-gall='gallery-item'
+                      >
+                        <img
+                          src='assets/img/ThiloSeidel_1.jpg'
+                          alt=''
+                          style={{
+                            width: '300px',
+                            height: '300px'
+                          }}
                           className='img-fluid'
                         />
                       </a>
@@ -1679,13 +1761,36 @@ class ProductsList extends Component {
                   <div className='col-lg-3 col-md-4'>
                     <div className='gallery-item'>
                       <a
-                        href='assets/img/gallery/gallery-3.jpg'
+                        href='assets/img/ThiloSeidel_7.jpg'
                         className='gallery-lightbox'
                         data-gall='gallery-item'
                       >
                         <img
-                          src='assets/img/gallery/gallery-3.jpg'
+                          src='assets/img/ThiloSeidel_7.jpg'
                           alt=''
+                          className='img-fluid'
+                          style={{
+                            width: '300px',
+                            height: '300px'
+                          }}
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className='col-lg-3 col-md-4'>
+                    <div className='gallery-item'>
+                      <a
+                        href='assets/img/ThiloSeidel_8.jpg'
+                        className='gallery-lightbox'
+                        data-gall='gallery-item'
+                      >
+                        <img
+                          src='assets/img/ThiloSeidel_8.jpg'
+                          alt=''
+                          style={{
+                            width: '300px',
+                            height: '300px'
+                          }}
                           className='img-fluid'
                         />
                       </a>
@@ -1694,14 +1799,18 @@ class ProductsList extends Component {
                   <div className='col-lg-3 col-md-4'>
                     <div className='gallery-item'>
                       <a
-                        href='assets/img/gallery/gallery-4.jpg'
+                        href='assets/img/ThiloSeidel_9.jpg'
                         className='gallery-lightbox'
                         data-gall='gallery-item'
                       >
                         <img
-                          src='assets/img/gallery/gallery-4.jpg'
+                          src='assets/img/ThiloSeidel_9.jpg'
                           alt=''
                           className='img-fluid'
+                          style={{
+                            width: '300px',
+                            height: '300px'
+                          }}
                         />
                       </a>
                     </div>
@@ -1709,59 +1818,18 @@ class ProductsList extends Component {
                   <div className='col-lg-3 col-md-4'>
                     <div className='gallery-item'>
                       <a
-                        href='assets/img/gallery/gallery-5.jpg'
+                        href='assets/img/ThiloSeidel_10.jpg'
                         className='gallery-lightbox'
                         data-gall='gallery-item'
                       >
                         <img
-                          src='assets/img/gallery/gallery-5.jpg'
+                          src='assets/img/ThiloSeidel_10.jpg'
                           alt=''
                           className='img-fluid'
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div className='col-lg-3 col-md-4'>
-                    <div className='gallery-item'>
-                      <a
-                        href='assets/img/gallery/gallery-6.jpg'
-                        className='gallery-lightbox'
-                        data-gall='gallery-item'
-                      >
-                        <img
-                          src='assets/img/gallery/gallery-6.jpg'
-                          alt=''
-                          className='img-fluid'
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div className='col-lg-3 col-md-4'>
-                    <div className='gallery-item'>
-                      <a
-                        href='assets/img/gallery/gallery-7.jpg'
-                        className='gallery-lightbox'
-                        data-gall='gallery-item'
-                      >
-                        <img
-                          src='assets/img/gallery/gallery-7.jpg'
-                          alt=''
-                          className='img-fluid'
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div className='col-lg-3 col-md-4'>
-                    <div className='gallery-item'>
-                      <a
-                        href='assets/img/gallery/gallery-8.jpg'
-                        className='gallery-lightbox'
-                        data-gall='gallery-item'
-                      >
-                        <img
-                          src='assets/img/gallery/gallery-8.jpg'
-                          alt=''
-                          className='img-fluid'
+                          style={{
+                            width: '300px',
+                            height: '300px'
+                          }}
                         />
                       </a>
                     </div>
